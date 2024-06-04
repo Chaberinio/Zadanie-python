@@ -1,3 +1,10 @@
+Aby uruchomić skrypt musimy posiadać na naszym komputerze zainstalowany język Python
+Następnie uruchamiamy plik main.py w wybranym IDE(np. Visual Studio Code)
+Przed uruchomieniem musimy dosinstalować jeszcze bilbioteke psycopg2
+Aby to zrobić musimy otworzyć terminal:
+W VS Code na górnej wstąrzce zakładka terminal oraz nowy terminal
+Zainstalować bibliotekę komendą pip install psycopg2
+
 Aby poprawnie uruchomić skrypt, przed pierwszym jego uruchomieniem należy zmienić dane w funkcji connect:
 
 dbname="biblioteka", - należy zmienić nazwę bazy danych na taką jaką mamy u siebie
@@ -5,3 +12,5 @@ user="postgres", - należy zmienić nazwę użytkownika na taką jaką mamy u si
 password="password", - należy zmienić hasło, które jest przypisane do użytkownika podanego wyżej
 host="localhost", - należy podać hosta naszej bazy danych
 port="5432" - należy podać port naszej bazy danych
+
+Na koniec wystarczy uruchomić program strzałką w prawym górnym roku IDE(w przypadku VS Code), a nasza aplikacja uruchomi się w terminalu
